@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+*{
+    text-decoration: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x:hidden;
+}
+
+.nav{
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+}
+
+.nav-options{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section{
+    background-image: url("hero-bg.png");
+    height: 90vh;
+    width:100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.hero-newarrival{
+    background-color: #fff3e3;
+    padding:40px;
+    width: max-content;
+    margin-right: 80px;    
+}
+
+.hero-newarrival p{
+    font-weight: 400;
+}
+
+.hero-newarrival h1{
+    color:#b88e2f;
+    
+}
+
+.hero-newarrival :nth-child(3){
+    padding-bottom: 20px;
+}
+.hero-newarrival button{
+    background-color: #b88e2f;
+    border: #b88e2f;
+    padding: 15px;
+    color: white;
+    font-weight: 600;
+}
+
+.categories{
+    text-align: center;
+    padding: 100px 0px;
+}
+
+
+.categories-container{
+    display: flex;
+    gap:80px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 80px;
+}
+
+.category img{
+    height: 400px;
+}
+
+.products{
+    text-align: center;
+}
+.products-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.product-card{
+    margin: 40px;
+    background-color:#F4F5F7 ;
+}
+
+.product-card p{
+    color: #898989;
+
+}
+
+.about{
+    padding-top:50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.about img{
+    width:100%;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap:40px;
+    padding: 40px 0px;
+}
+
+
+
+.ft{
+    color: #9F9F9F;
+    
+}
+
+.foot h3{
+    font-weight: 500;
+    
+}
+
+.newsletter input{
+    padding: 10px;
+    border: none;
+    border-bottom:1px solid black;
+}
+
+.newsletter button{
+    padding: 10px;
+    border: none;
+    border-bottom:1px solid black;
+    background-color: transparent;
+    font-weight: 700;
+}
+
+.rights{
+    padding: 30px;
+}
+
+
+.contact-img{
+    width:100vw;
+}
+
+.contact-img img{
+    width:100%;
+}
+
+.contact-content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0px;
+}
+
+.contact-content p{
+    width:60%;
+}
+
+.banner img{
+    width:100vw;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    width:40%;
+    gap:20px;
+}
+
+.contact-form-parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.contact-form input,textarea,button{
+    padding: 12px;
+    background-color: #f6f2f2;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.contact-form button{
+    background-color: #b58935;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+}
